@@ -8,10 +8,7 @@ import com.khizunov.binary.Algorithms;
 /**
  * Hello world!
  */
-public final class App {
-    private App() {
-    }
-
+public class App {
     /**
      * Says hello to the world.
      * @param args The arguments of the program.
@@ -21,6 +18,5 @@ public final class App {
         list.forEach(i -> System.out.println(i));
         int index = Algorithms.binarySearch(10, list);
         System.out.println("Found index: " + index);
-
     }
 }
